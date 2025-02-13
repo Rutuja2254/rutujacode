@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>b
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+    <title>Form</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;color: red;font-size: 50px; font-family: 'Times New Roman', Times, serif;">
+        Registration Form</h1>
+    <form action="action.php" method="post" style="text-align: left;">
+        <label>Name:</label>
+        <input type="text" name="fname" placeholder="Enter 1-9   Name">
+        <br><br>
+        <label>password:</label>
+        <input type="text" name="fname" placeholder="Enter your password">
+        <br><br>
+        <label>email:</label>
+        <input type="text" name="fname" placeholder="Enter your email">
+
+        <br><br>/
+        <label>Mobile no</label>
+        <input type="tel" name="number" maxlength="10" minlength="10" pattern="[7-9]{1}[1-9]{9}"
+            placeholder="enter your number">
+        <br><br>
+        <label>DOB</label>
+        <input type="date" name="DOB">
+        <br><br>
+        <label>Gender</label>
+        <input type="radio" name="Gender" value="male">male
+        <input type="radio" name="Gender" value="female">female
+        <br><br>
+        <label>State</label>
+        <select name="State">
+            <option value="">Select your State</option>
+            <option value="maharashtra">maharashtra</option>
+            <option value="utarpradesh">utarpradesh</option>
+            <option value="madhya pradesh">madhya pradesh</option>
+
+        </select>
+        <br><br>
+        <label>photo</label>
+        <input type="file" name="photo"><br><br>
+        <label>qualification</label>
+        <input type="checkbox" name="10" value="10">10 <sup>th</sup>
+        <input type="checkbox" name="12" value="12">12 <sup>th</sup>
+        <input type="checkbox" name="diploma" value="diploma">diploma
+        <br><br>
+
+        <pre>this is sample</pre>
+
+        <input type="button" value="Submit">
+    </form>
+</body>
+
+</html>`
